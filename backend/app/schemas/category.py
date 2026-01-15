@@ -11,6 +11,6 @@ class CategoryResponse(CategoryBase):
     id: int = Field(..., description="Unique category udentifire")
 
     class Config:
-        form_attributes = True
+        from_attributes = True
         # orm_mode = True
 
